@@ -88,4 +88,4 @@ async def post_panel(ctx):
     embed = discord.Embed(title="📩Assistenza", description="Seleziona una delle seguenti categorie per creare un ticket di assistenza.")
     await ctx.send(embed=embed, view=TicketPanelView())
 
-bot.run(TOKEN)
+bot.run(MTQ4ODYxNTExMTgwNjQyMzA5MA.GWhOns.ppPZsVF8HSjMYq9HmFfLdlxOcQ94O4UQIK5M_c)
