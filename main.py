@@ -3,7 +3,6 @@ from discord.ext import commands
 import asyncio
 
 # --- CONFIGURATION ---
-TOKEN = 'MTQ4ODYxNTExMTgwNjQyMzA5MA.Gk5TeG.50-Wi0ZyqhSU6QywGhXiJjfaHlv6WAWMKgGNhg'
 CATEGORY_ID = 1488187894882631989  
 STAFF_ROLE_IDS = [1488664625460285602] 
 
@@ -88,4 +87,4 @@ async def post_panel(ctx):
     embed = discord.Embed(title="📩Assistenza", description="Seleziona una delle seguenti categorie per creare un ticket di assistenza.")
     await ctx.send(embed=embed, view=TicketPanelView())
 
-bot.run('MTQ4ODYxNTExMTgwNjQyMzA5MA.G5tV1K.Jxyct6RRs3YZ0ABKdXRg6dpVt1gqS-mm7GqBLs')
+bot.run('MTQ4ODYxNTExMTgwNjQyMzA5MA.G1AWr-.2lXxuPJ9v2AxW-v_E1v-XqKHJWGKQZJs-dRJqc')
